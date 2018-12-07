@@ -1,13 +1,16 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "{7D79966A-40A6-C30E-33E4-BDB279F4B2DF}",
+	"EngineAssociation": "{E59F0C74-415B-C9E4-A5CE-AC8F00908989}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
 		{
 			"Name": "Beta_Arcade",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
 		}
 	],
 	"TargetPlatforms": [
